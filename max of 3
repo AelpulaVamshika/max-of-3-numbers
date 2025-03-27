@@ -1,0 +1,9 @@
+h=int(input("enter  earned how many points: "))
+r=int(input("enter  earned how many points: "))
+e=int(input("enter  earned how many points: "))
+if h>r and h>e:
+    print("Harry got the most points")
+elif r>h and r>e:
+    print('Ron got the most points')
+else:
+    print("Hermione got the most points")
